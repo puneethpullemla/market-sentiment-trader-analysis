@@ -65,6 +65,68 @@ A simple predictive model using logistic regression was included to estimate nex
 The section explains model performance, class imbalance, and limitations.
 
 ---
+## How to Run
+
+### Prerequisites
+- Python 3.9 or higher
+- Jupyter Notebook
+- Internet access only for installing Python packages
+
+---
+
+### Step 1: Clone the Repository
+
+git clone https://github.com/puneethpullemla/market-sentiment-trader-analysis.git
+
+cd market-sentiment-trader-analysis
+
+
+---
+
+### Step 2: Install Required Dependencies
+
+pip install pandas numpy matplotlib scikit-learn
+
+
+---
+
+### Step 3: Prepare the Data
+
+Due to GitHub file size limits, a sample dataset is provided.
+
+Ensure the following files are present in the `data/` directory:
+- `historical_data_sample.csv`
+- `fear_greed_index.csv`
+
+If using the full dataset, replace the sample file with the full CSV using the same file name.
+
+---
+
+### Step 4: Launch Jupyter Notebook
+
+This will open Jupyter in your default web browser.
+
+---
+
+### Step 5: Run the Analysis Notebook
+
+Open the following file and run all cells from top to bottom:
+notebook/data_science_internship.ipynb
+
+---
+
+### Step 6: Review Outputs
+
+All generated tables and charts will be automatically saved to the `outputs/` directory, including:
+- Performance summaries by market sentiment
+- Trader segment comparison tables
+- PnL distribution and behavior charts
+
+---
+
+### Notes
+- The notebook is designed to run end-to-end without modification.
+- The predictive modeling section is optional and included for demonstration purposes.
 
 
 
