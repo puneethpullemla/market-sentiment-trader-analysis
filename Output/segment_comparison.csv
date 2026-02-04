@@ -1,0 +1,11 @@
+frequency_segment,classification,avg_pnl,avg_trades
+Infrequent,Extreme Fear,147032.272750125,1516.6875
+Infrequent,Extreme Greed,147032.272750125,1516.6875
+Infrequent,Fear,147032.272750125,1516.6875
+Infrequent,Greed,147032.272750125,1516.6875
+Infrequent,Neutral,147032.272750125,1516.6875
+Frequent,Extreme Fear,496527.661214625,11684.8125
+Frequent,Extreme Greed,496527.661214625,11684.8125
+Frequent,Fear,496527.66121462506,11684.8125
+Frequent,Greed,496527.661214625,11684.8125
+Frequent,Neutral,496527.661214625,11684.8125
