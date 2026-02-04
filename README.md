@@ -1,4 +1,6 @@
 # Market Sentiment & Trader Behavior Analysis
+Market Sentiment & Trader Behavior Analysis using Bitcoin Fear & Greed Index and trader data.
+
 
 Analysis of how market sentiment (Fear vs Greed) impacts trader behavior and performance in crypto markets.
 
@@ -17,9 +19,12 @@ The goal is to extract actionable insights and strategy recommendations using re
 
 ## Data
 
+
 - `historical_data.csv`  
   Trader-level transaction data (timestamps, trade size, direction, PnL).
-  A small sample dataset is included for reproducibility. Full data can be provided upon request.
+ Due to GitHub file size limits, the full historical trade dataset is not included.  
+A sample dataset is provided (`historical_data_sample.csv`) for reproducibility. Full data can be requested if needed.
+
 
 
 - `fear_greed_index.csv`  
@@ -44,22 +49,22 @@ The goal is to extract actionable insights and strategy recommendations using re
 - Optional: simple predictive model for next-day profitability
 
 ---
+## Outputs (Preview)
 
+The `outputs/` folder contains:
+- ` [performance_by_sentiment.csv](https://github.com/user-attachments/files/25074346/performance_by_sentiment.csv)  — summary table of PnL by sentiment
+- [segment_comparison.csv](https://github.com/user-attachments/files/25074329/segment_comparison.csv)  — analysis across trader segments
+- `<img width="878" height="585" alt="pnl_distribution_by_sentiment" src="https://github.com/user-attachments/assets/b8d27919-a208-4ce5-a58f-88564a1492e4" /> — PnL distribution chart
+- `<img width="1022" height="666" alt="trade_frequency_by_sentiment" src="https://github.com/user-attachments/assets/c7d7de3e-5c70-4858-88e1-102a1bf19a75" /> — trade frequency chart
 
 
 ---
+### Bonus: Predictive Modeling
 
-## How to Run
+A simple predictive model using logistic regression was included to estimate next-day profitability based on sentiment and behavior features.  
+The section explains model performance, class imbalance, and limitations.
 
-```bash
-pip install pandas numpy matplotlib scikit-learn
-notebook/data_science_internship.ipynb
+---
 
 
-## Key Outputs
-
-Performance comparison across Fear vs Greed regimes
-Trader behavior analysis by segment
-Visualizations of PnL distribution and trade frequency
-Strategy recommendations based on sentiment
 
