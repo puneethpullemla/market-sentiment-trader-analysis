@@ -19,6 +19,8 @@ The goal is to extract actionable insights and strategy recommendations using re
 
 - `historical_data.csv`  
   Trader-level transaction data (timestamps, trade size, direction, PnL).
+  A small sample dataset is included for reproducibility. Full data can be provided upon request.
+
 
 - `fear_greed_index.csv`  
   Daily market sentiment labels (Fear / Greed).
